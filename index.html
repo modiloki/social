@@ -1,0 +1,384 @@
+<script>
+  var popunder = {expire: 12, url: "https://r622mrb.datesweet-flirt.com/yrbp734"};
+  </script>
+  <script src="https://datesweet-flirt.com/js/popunder.js"></script>
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>New Messages</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0b0b0f;
+font-family:Inter,Arial,sans-serif;
+color:white;
+display:flex;
+justify-content:center;
+min-height:100vh;
+overflow-x:hidden;
+}
+
+.container{
+width:100%;
+max-width:480px;
+padding:18px;
+}
+
+.topbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-bottom:20px;
+}
+
+.logo{
+font-size:22px;
+font-weight:800;
+letter-spacing:-1px;
+}
+
+.online{
+font-size:13px;
+color:#6dff8f;
+}
+
+.hero{
+border-radius:28px;
+overflow:hidden;
+position:relative;
+box-shadow:0 15px 50px rgba(0,0,0,.5);
+margin-bottom:18px;
+}
+
+.hero img{
+width:100%;
+margin-left: 140px;
+height:460px;
+object-fit:cover;
+display:block;
+}
+
+.badge{
+position:absolute;
+top:14px;
+left:14px;
+background:#ff2f74;
+padding:8px 12px;
+border-radius:999px;
+font-size:13px;
+font-weight:700;
+}
+
+.bottom-overlay{
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+padding:22px;
+background:linear-gradient(to top, rgba(0,0,0,.95), transparent);
+}
+
+.bottom-overlay h1{
+font-size:34px;
+line-height:1;
+margin-bottom:10px;
+font-weight:900;
+letter-spacing:-2px;
+text-transform:uppercase;
+}
+
+.bottom-overlay p{
+font-size:16px;
+opacity:.92;
+line-height:1.4;
+}
+
+.chat{
+background:#15151d;
+border-radius:28px;
+padding:18px;
+box-shadow:0 15px 50px rgba(0,0,0,.45);
+margin-bottom:20px;
+}
+
+.msg{
+display:flex;
+align-items:flex-end;
+gap:10px;
+margin-bottom:14px;
+}
+
+.msg.right{
+justify-content:flex-end;
+}
+
+.avatar{
+width:42px;
+height:42px;
+border-radius:50%;
+object-fit:cover;
+flex-shrink:0;
+}
+
+.bubble{
+padding:13px 16px;
+border-radius:18px;
+max-width:78%;
+font-size:15px;
+line-height:1.4;
+}
+
+.leftbubble{
+background:#f3f3f5;
+color:#111;
+border-bottom-left-radius:5px;
+}
+
+.rightbubble{
+background:#ff4b87;
+color:white;
+border-bottom-right-radius:5px;
+}
+
+.time{
+display:block;
+font-size:11px;
+opacity:.55;
+margin-top:4px;
+}
+
+.blur{
+filter:blur(6px);
+user-select:none;
+pointer-events:none;
+}
+
+.typing{
+margin-left:52px;
+display:flex;
+gap:5px;
+padding:10px 14px;
+background:#2b2b34;
+width:60px;
+border-radius:999px;
+}
+
+.typing span{
+width:7px;
+height:7px;
+background:white;
+border-radius:50%;
+animation:bounce 1.2s infinite;
+}
+
+.typing span:nth-child(2){
+animation-delay:.2s;
+}
+
+.typing span:nth-child(3){
+animation-delay:.4s;
+}
+
+@keyframes bounce{
+0%,80%,100%{
+transform:scale(.6);
+opacity:.4;
+}
+40%{
+transform:scale(1);
+opacity:1;
+}
+}
+
+.lockbox{
+background:#191922;
+border:1px solid rgba(255,255,255,.08);
+border-radius:24px;
+padding:22px;
+text-align:center;
+margin-bottom:18px;
+}
+
+.lockbox h2{
+font-size:28px;
+line-height:1;
+margin-bottom:12px;
+font-weight:900;
+text-transform:uppercase;
+}
+
+.lockbox p{
+font-size:15px;
+opacity:.85;
+line-height:1.5;
+margin-bottom:20px;
+}
+
+.cta{
+display:flex;
+align-items:center;
+justify-content:center;
+width:100%;
+height:62px;
+border-radius:999px;
+background:linear-gradient(180deg,#ff5b96,#ff2f74);
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:800;
+box-shadow:0 10px 30px rgba(255,47,116,.35);
+transition:.2s;
+}
+
+.cta:active{
+transform:scale(.98);
+}
+
+.small{
+text-align:center;
+font-size:12px;
+opacity:.45;
+margin-top:14px;
+line-height:1.5;
+}
+
+.floating{
+position:fixed;
+bottom:16px;
+left:50%;
+transform:translateX(-50%);
+width:calc(100% - 32px);
+max-width:448px;
+z-index:999;
+}
+
+.floating a{
+height:60px;
+font-size:17px;
+}
+
+@media(max-width:520px){
+
+.bottom-overlay h1{
+font-size:28px;
+}
+
+.hero img{
+height:600px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="topbar">
+<div class="logo">PrivateChat</div>
+<div class="online">● 124 online now</div>
+</div>
+
+<div class="hero">
+
+<div class="badge">
+3 NEW MESSAGES
+</div>
+
+<img src="1her.png" alt="girl">
+
+<div class="bottom-overlay">
+<h1>She Wants<br>To Meet 😘</h1>
+<p>You received private messages from a girl near your area.</p>
+</div>
+
+</div>
+
+<div class="chat">
+
+<div class="msg">
+<img class="avatar" src="1her.png">
+<div class="bubble leftbubble">
+Hey 😘
+<span class="time">23:41</span>
+</div>
+</div>
+
+<div class="msg">
+<img class="avatar" src="1her.png">
+<div class="bubble leftbubble">
+You look really cute...
+<span class="time">23:42</span>
+</div>
+</div>
+
+<div class="msg right">
+<div class="bubble rightbubble">
+Are you nearby?
+<span class="time">23:43</span>
+</div>
+</div>
+
+<div class="msg">
+<img class="avatar" src="1her.png">
+<div class="bubble leftbubble">
+Yeah... maybe we could meet tonight 😉
+<span class="time">23:44</span>
+</div>
+</div>
+
+<div class="msg">
+<img class="avatar" src="1her.png">
+<div class="bubble leftbubble blur">
+I want to show you something private 😈
+<span class="time">23:44</span>
+</div>
+</div>
+
+<div class="typing">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+</div>
+
+<div class="lockbox">
+
+<h2>Unlock<br>Private Messages</h2>
+
+<p>
+Create your free account to continue chatting and see hidden photos/messages.
+</p>
+
+<a class="cta" href="https://r622mrb.datesweet-flirt.com/yrbp734">
+READ MESSAGES
+</a>
+
+<div class="small">
+18+ only • Free registration • Instant access
+</div>
+
+</div>
+
+</div>
+
+<div class="floating">
+<a class="cta" href="https://r622mrb.datesweet-flirt.com/yrbp734">
+UNLOCK CHAT
+</a>
+</div>
+
+</body>
+</html>
+```
